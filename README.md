@@ -14,7 +14,7 @@ Stock Screener is totally customizable and it can screen stocks with the setting
 5. Open Command Prompt (Windows) or Terminal (Mac/Linux) and run command `docker push vishal17/stockscreener:latest`
 6. Once installed, always start Stock Screener by running this command:
     ```
-    docker run -p 8501:8501 docker push vishal17/stockscreener:latest
+    docker run -p 8501:8501 docker run vishal17/stockscreener:latest
 
     OR
 
